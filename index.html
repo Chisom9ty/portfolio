@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Chisom Okwara</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Chisom Okwara</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href=#experience onclick="toggleMenu()">Experience</a></li>
+                    <li><a href=#projects onclick="toggleMenu()">Projects</a></li>
+                    <li><a href=#contact onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+
+        <section id="profile">
+            <div class="section_pic-container">
+                <img src="images/ my-IMG_1911.JPG" alt="My profile picture" >
+            </div>
+            <div class="section_text">
+                <p class="section_text_p1">Hello, I'm</p>
+                <h1 class="title"> Chisom Okwara</h1>
+                <p class="section_text_p2">Full-Stack Developer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2"onclick="window.open('images/ChisomOkwara seCV.pdf')">Download CV</button>
+                    <button class="btn btn-color-1"onclick="location.href='./#contact'">Contact Info</button>
+                    
+                    
+                </div>
+                <div id="socials-container">
+                    <img src="images/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/chisom-okwara-a5b525226/'">
+                    <img src="images/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/Chisom9ty'">
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <p class="section_text_p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section_pic-container">
+                    <img src="images/388d0dab-9530-447c-a4fa-38948d14191c.jpg" alt="profile picture"
+                    class="about-pic">
+                </div>
+                <div class="about-details-container">
+                    <div class="about-container">
+                        <div class="details-container">
+                            <img src="images/experience.png" alt="Experience icon" class="icon">
+                            <h3>Experience</h3>
+                            <p>2+ years <br/> Full-stack Development</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="images/education.png" alt="Education icon" class="icon">
+                            <h3>Education</h3>
+                            <p>B'Eng. Bachelors Degree<br />LLM Masters Degree</p> 
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            Hello there, if you are looking for a website for your business irrespective of scale, you are at the right place. I am equipped in delivering websites that are aesthetically pleasing and high functioning regardless of your budget. I provide other maintenance, SEO and hosting sevices post website creation at affordable prices and provide a variety of packages suited for each individual business.
+                            So drop me a message and let me make you the website you have envisioned for your business.  
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img src="images/arrow.png" alt="arrow icon" class="icon arrow"
+            onclick="location.href='./#experience'">
+        </section>
+
+        <section id="experience">
+            <p class="section_text_p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="Experience-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Javascript</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>SASS</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>TypeScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="Experience-title">Backend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>PostgreSQL</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Node JS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Express JS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>React JS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="images/checkmark.png" alt="Experience icon" class="icon">
+                                <div>
+                                    <h3>Git</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="images/arrow.png" alt="arrow icon" class="icon arrow"
+            onclick="location.href='./#projects'">
+        </section>
+
+
+        <section id="projects">
+            <p class="section_text_p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+             <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="images/IMG_3917.PNG" alt="project1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Chisom9ty/lasi-update'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://lasibodysculpting.co.uk/https://lasibodysculpting.co.uk/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="images/offerProduct.png" alt="project2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Chisom9ty/Food-ordering'">
+                        Github
+                    </button>
+                    
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="images/IMG_3916.PNG" alt="project3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Chisom9ty/html-movieWebsite'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://chisom9ty.github.io/html-movieWebsite/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            </div>
+           </div>
+            <img src="images/arrow.png" alt="arrow icon" class="icon arrow"
+            onclick="location.href='./#contact'">
+        </section>
+        <section id="contact">
+            <div class="contact-title">
+                <h1>Get in Touch</h1>
+                <img src="" alt=""/>
+            </div>
+            <div class="contact-section">
+                <div class="contact-left">
+                    <h2>Let's Talk</h2>
+                    <p> I'm currently available to take on new projects so feel free to drop me a message</p>
+                    <div class="contact-details">
+                    <div class="contact-detail">
+                        <img src="images/mail_icon.svg" alt=""/> <p>Chisomokwara9@gmail.com</p>
+                        
+                    </div>
+                    <div class="contact-detail">
+                        <img src="images/call_icon.svg" alt=""/> <p>07480370725</p>
+                        
+                    </div>
+                    <div class="contact-detail">
+                        <img src="images/location_icon.svg" alt=""> <p>Wolverhampton, United Kingdom</p>
+                        
+                    </div>
+                    </div>
+                </div>
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-right">
+                    <input type="hidden" name="access_key" value="e386da69-cd6e-473c-aeff-3868f11bfd81">
+                    <label htmlFor="">Your Name</label>
+                    <input type="text" placeholder="Enter your name" name="name"/>
+                    <label htmlFor="">Your Email</label>
+                    <input type="email" placeholder="Enter your email" name="email"/>
+                    <label htmlFor ="">Write your message here</label>
+                    <textarea name="message" rows="8" placeholder="Enter your message"></textarea>
+                    <button type="submit"  class="contact-submit"> Submit now</button>
+
+                </form>
+            </div>
+
+
+
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+
+                </div>
+            </nav>
+            <p>Copyright &#169; 2024 Chisom Okwara. All Rights Reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

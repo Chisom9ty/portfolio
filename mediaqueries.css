@@ -1,0 +1,162 @@
+@media screen and (max-width: 1400px ) {
+    #profile {
+        height:83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containrs {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px ) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    #experience, .experience-details-container {
+        margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+    section, .section-container {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+    .section_pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-containers {
+        margin-top:0;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    #contact,footer {
+        height: 40vh;
+    }
+    #profile {
+        height: 83vh;
+        margin-bottom:0;
+    }
+    article {
+        font-size: 1rem;
+    }
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+
+    .about-containers, .contact-section, .btn-container {
+        flex-wrap: wrap;
+    }
+
+   .experience-sub-tile {
+    font-size: 1.25rem;
+   }
+
+   .logo {
+    font-size: 1.5rem;
+   }
+
+   .nav-links {
+    flex-direction: column;
+    gap:0.5rem;
+    text-align: center;
+    margin-top: 70rem;
+   
+   }
+
+
+   .contact-title h1 {
+    padding:0;
+    font-size: 50px;
+    font-weight: 600;
+   }
+
+   
+
+   .contact-section {
+    flex-direction: column;
+   }
+
+   .contact-left p {
+    font-size: 15px;
+   }
+
+   .contact-detail{
+    gap: 20px;
+   }
+
+   .contact-detail img {
+    width: 25px;
+   }
+
+   .contact-right label {
+    font-size: 20px;
+   }
+
+   .contact-right input {
+    width: 90%;
+    font-size: 20px;
+
+   }
+
+   .contact-right textarea {
+    width: 80%;
+    font-size: 20px;
+   }
+
+   .contact-submit {
+    font-size:20px;
+    padding:15px 40px;
+    max-width: 10rem;
+   }
+
+   .footer p {
+    margin:0;
+    padding:0;
+    max-width: 2rem;
+
+    
+   }
+
+
+
+   .section_pic-container {
+    width: auto;
+    height: 46vh;
+    justify-content: center;
+   }
+
+   .section_text_p2 {
+    font-size: 1.25rem;
+   }
+   .title {
+    font-size: 2rem;
+   }
+
+   .text-container{
+   text-align: center;
+   }
+
+
+    
+}
+
